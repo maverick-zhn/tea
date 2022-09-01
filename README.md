@@ -1,7 +1,7 @@
 # TEA
 Tendencias e Innovación en Tecnología Agrícola
 
-<img height="300" src="https://raw.githubusercontent.com/mavericzhn/trueno/master/assets/logo/python-programming-language-programing-workflow-abstract-algorithm-concept.jpeg" align="middle">
+<img height="300" src="https://raw.githubusercontent.com/maverick-zhn/tea/master/assets/logo/python-programming-language-programing-workflow-abstract-algorithm-concept.jpeg" align="middle">
 
 
 ## Descripción
