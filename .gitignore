@@ -1,0 +1,9 @@
+# Mac nonsense
+.DS_Store
+
+# vscode stuff
+.dccache
+.history
+
+# vim/nvim stuff
+.nvimlog
