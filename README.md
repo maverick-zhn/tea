@@ -1,8 +1,7 @@
+<img height="400" src="https://raw.githubusercontent.com/maverick-zhn/tea/master/assets/logo/python-programming-language-programing-workflow-abstract-algorithm-concept.jpeg" align="middle">
+
 # TEA
 Tendencias e Innovación en Tecnología Agrícola
-
-<img height="300" src="https://raw.githubusercontent.com/maverick-zhn/tea/master/assets/logo/python-programming-language-programing-workflow-abstract-algorithm-concept.jpeg" align="middle">
-
 
 ## Descripción
 Esta clase incluye la introducción al arte de programación y solución de problemas, así como temas actuales de agricultura de precisión, IoT, ciencia de datos para agricultura, interfaces de programa de aplicación (APIs), big data, software para manejo de granjas agrícolas, sistemas emergentes para agricultura y agronomía (blockchain, serverless computing, etc.), e investigación de nuevos temas en estas tecnologías [1, 2]. 
