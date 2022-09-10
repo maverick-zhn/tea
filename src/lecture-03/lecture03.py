@@ -39,17 +39,19 @@ primero = 10
 segundo = 15
 
 # calculando el total de minutos
-#print(primero + segundo)
+print(primero + segundo)
+print(type(primero))
 
 # utilizando cadenas
-# primero1 = "10"
-# segundo1 = "15"
+primero1 = "10"
+segundo1 = "15"
 # mostrar la concatenacion:
-# print(primero1 + segundo1)
+print(primero1 + segundo1)
+print(type(primero1))
 
 
-# preguntando datos por medio del teclado -----> (input)
-nombre = input("¿Cuál es tu nombre? ")
+# preguntando datos por medio del teclado -----> (i)
+nombre = _____("¿Cuál es tu nombre? ")
 print("Su nombre es: " + nombre)
 
 
