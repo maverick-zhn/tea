@@ -26,7 +26,9 @@
 # 5. Exceptiones (try/catch)
 # 6. Short-Circuit Evaluation
 
+# ============================================================
 # 1. Operadores Logicos
+# ============================================================
 
 # 1.1 AND
 A = False
@@ -59,12 +61,16 @@ print("Tabla de Verdad para el Operador Logico NOT")
 print("Not True es igual a ", A)
 print("Not False es igual a ", B)
 
+# ============================================================
 # 1.4 Ejemplo
 # Tablas de verdad en acción
+# ============================================================
 x = 1
 y = 10
 
+# ============================================================
 # (Libro 3.4) Ejecucion alterna
+# ============================================================
 if x > 0 and x < 10:
     print("Es un numero entre 1 y 9")
 else:
@@ -81,7 +87,9 @@ else:
 # else:
 #     print("x es 0 o negativo")
 
+# ============================================================
 # chained conditionals
+# ============================================================
 # if x < y:
 #     print("x es menor que y")
 # elif x > y:
@@ -89,8 +97,9 @@ else:
 # else:
 #     print("x y y son iguales")
 
-
+# ============================================================
 # nested conditionals
+# ============================================================
 # if x > 0:
 #     print("x es positivo")
 # else:
@@ -99,11 +108,14 @@ else:
 #     else:
 #         print("x es negativo")
 
-# try/catch
+# ============================================================
+# try/except
+# https://www.w3schools.com/python/python_try_except.asp
+# ============================================================
 inp = input("Ingresar la temperatura: ")
 # try:
 fahrenheit = float(inp)
 celcius = (fahrenheit-32) * 5.0/9.0
-print("Celicius", celcius)
-# catch:
+print("Celcius", celcius)
+# except:
 print("Please enter a number.")
