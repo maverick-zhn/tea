@@ -2,8 +2,8 @@
 # Lecture 05
 # Ejecución Condicional
 # Autor: servio@palacios.com
-# Fecha: 2022.09.10
-# Editado: 2022.08.10
+# Fecha: 2022.09.12
+# Editado: 2022.08.12
 # =================================================================================
 # Disclaimer:
 # Este codigo contiene instrucciones de Python que tiene el fin de
@@ -57,29 +57,34 @@ print("|-----------------------------------------|\n")
 # 1.3 NOT
 A = not True
 B = not False
-print("Tabla de Verdad para el Operador Logico NOT")
-print("Not True es igual a ", A)
-print("Not False es igual a ", B)
+# print("Tabla de Verdad para el Operador Logico NOT")
+# print("Not True es igual a ", A)
+# print("Not False es igual a ", B)
 
 # ============================================================
 # 1.4 Ejemplo
 # Tablas de verdad en acción
 # ============================================================
-x = 1
-y = 10
+x = 100
+y = 100
+
+if not (x > 0 or x < 10):
+    print("la condicion es verdadera")
+else:
+    print("La condicion es falsa")
 
 # ============================================================
 # (Libro 3.4) Ejecucion alterna
 # ============================================================
-if x > 0 and x < 10:
-    print("Es un numero entre 1 y 9")
-else:
-    print("El numero no esta entre 1 y 9")
+# if x >= 0 and x <= 10:
+#     print("Es un numero entre 1 y 9")
+# else:
+#     print("El numero no esta entre 1 y 9")
 
-if not (x > 0 and x < 10):
-    print("El numero no esta entre 1 y 9")
-else:
-    print("Es un numero entre 1 y 9")
+# if not (x > 0 and x < 10):
+#     print("la condicion es verdadera")
+# else:
+#     print("La condicion es falsa")
 
 
 # if x > 0:

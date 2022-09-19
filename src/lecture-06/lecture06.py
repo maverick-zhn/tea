@@ -30,70 +30,70 @@ import random
 # ============================================================
 # 1. Funciones built-in
 # ============================================================
-mensaje = "Hola, Mundo!"
-longitud = len(mensaje)
-print(longitud)
+# mensaje = "Hola, Mundo!"
+# longitud = len(mensaje)
+# print(longitud)
 
 # ============================================================
 # 2. Funciones de Conversion de Tipos
 # ============================================================
 # 2.1 int()
-horas = input("horas trabajadas? ")
-valorPorHora = input("valor por hora? ")
+# horas = input("horas trabajadas? ")
+# valorPorHora = input("valor por hora? ")
 
 # se utiliza la conversion de tipo a int
 # sino se hace la conversion existira error porque trata de multiplicar strings
-total = int(horas) * int(valorPorHora)
-print(total)
+# total = int(horas) * int(valorPorHora)
+# print(total)
 
 # 2.2 float()
-fahrenheit = float(32)
-print(fahrenheit)
-print(type(fahrenheit))
+# fahrenheit = float(32)
+# print(fahrenheit)
+# print(type(fahrenheit))
 
-pi = float("3.14159651")
-print(pi)
-print(type(pi))
+# pi = float("3.14159654")
+# print(pi)
+# print(type(pi))
 
 # 2.3 str()
-strTemperatura = str(32)
-print(strTemperatura)
-print(type(strTemperatura))
+# strTemperatura = str(32)
+# print(strTemperatura)
+# print(type(strTemperatura))
 
-print(type(str(3.141592654)))
+# print(type(str(3.141592654)))
 
 # ============================================================
 # 3.0 Funciones Matematicas
 # https://docs.python.org/3/library/math.html
 # ============================================================
-print("================ Funciones Matematicas =================")
-print(math)
+# print("================ Funciones Matematicas =================")
+# print(math)
 
-radians = 0.7
-height = math.sin(radians)
-print(height)
-print(type(height))
+# radians = 0.7
+# height = math.sin(radians)
+# print(height)
+# print(type(height))
 
-degrees = 45
+# degrees = 45
 
-# raiz cuadrada
-print(math.sqrt(144))
+# # raiz cuadrada
+# print(math.sqrt(144))
 
 # ============================================================
 # 4.0 Numeros Aleatorios
 # https://docs.python.org/3/library/random.html
 # ============================================================
-# El laboratorio contendra un ejercicio parecido a este
-print("================ Numeros Aleatorios =================")
-for i in range(10):
-    aleatorio = random.random()
-    print(aleatorio)
+# El laboratorio contendra un ejercicio similar al siguiente
+# print("================ Numeros Aleatorios =================")
+# for i in range(10):
+#     aleatorio = random.random()
+#     print(aleatorio)
 
-print(random.randint(5, 10))
+# print(random.randint(5, 10))
 
-valores = [1, 2, 3, 4, 5]
-aleatorio = random.choice(valores)
-print(aleatorio)
+# valores = [1, 2, 3, 4, 5]
+# aleatorio = random.choice(valores)
+# print(aleatorio)
 
 # ============================================================
 # 5.0 Agregando Nuevas Funciones
