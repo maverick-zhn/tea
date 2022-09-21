@@ -30,17 +30,17 @@
 #   0   1   2   3   4   5   6   7   8   9   10  11
 # | H | o | l | a | , |   | M | u | n | d | o | ! |
 mensaje = "Hola, Mundo!"
-caracter = mensaje[3]
-print(caracter)
-caracter = mensaje[7]
-print(caracter)
+# caracter = mensaje[3]
+# print(caracter)
+# caracter = mensaje[7]
+# print(caracter)
 
 
 # ============================================================
 # 2. Iteracion sobre cadenas
 # ============================================================
 # index = 0
-# while index <= len(mensaje):  # probar con <=
+# while index < len(mensaje):  # probar con <=
 #     caracter = mensaje[index]
 #     print(caracter)
 #     index = index + 1
@@ -58,9 +58,9 @@ print(caracter)
 # | M | o | n | t | y | _ | P | y | t | h | o | n |
 s = "Monty_Python"
 
-# El operador retorna la parte del string exmpezando de la
+# El operador retorna la parte del string empezando de la
 # posicion n hasta la posicion m sin incluir el indice m
-print(s[0:5])
+# print(s[0:6])
 
 # print(s[6:12])
 
@@ -90,7 +90,9 @@ print(s[0:5])
 # ============================================================
 # 6. Comparacion de Strings
 # ============================================================
-# if "Hola, Mundo!" == mensaje:
+# if "Hola, Mundo!" != mensaje:
+#     print("Los dos strings(textos) no son iguales")
+# else:
 #     print("Los dos strings(textos) son iguales")
 
 # adicionalmente, se puede utilizar el operador < y > para
@@ -101,31 +103,31 @@ print(s[0:5])
 # Python object: contains data and methods (built-in functions)
 # https://www.w3schools.com/python/python_ref_string.asp
 # ============================================================
-print(dir(mensaje))
+# print(dir(mensaje))
 
 # pasando todo a mayuscula
-mensajeMayuscula = mensaje.upper()  # invocando el método
-print(mensajeMayuscula)
+# mensajeMayuscula = mensaje.upper()  # invocando el método
+# print(mensajeMayuscula)
 
 # pasando todo a minuscula
-mensajeMinucula = mensaje.lower()
-print(mensajeMinucula)
+# mensajeMinucula = mensaje.lower()
+# print(mensajeMinucula)
 
 # buscando caracteres en el string
-index = mensaje.find("!")
-print(index)
+# index = mensaje.find("!")
+# print(index)
 
 # probar algunos métodos de los strings
 
 # remover espacios (white space)
-linea = "   este texto tiene espacios     "
-print(linea)
-print(linea.strip())
+# linea = "   este texto tiene espacios     "
+# print(linea)
+# print(linea.strip())
 
-linea = "Que tenga feliz dia"
-print(linea.startswith("Que"))
+# linea = "Que tenga feliz dia"
+# print(linea.startswith("Que"))
 
-print(linea.lower().startswith("Que"))
+# print(linea.lower().startswith("Que"))
 
 # ============================================================
 # 8. Analizando cadenas
@@ -133,12 +135,60 @@ print(linea.lower().startswith("Que"))
 # Parsing Strings
 # ============================================================
 
-dato = 'From stephen.marquard@uct.ac.za Sat Jan 5 09:14:16 2008'
-arrobapos = dato.find('@')
-print(arrobapos)
+# dato = 'From stephen.marquard@uct.ac.za Sat Jan 5 09:14:16 2008'
+# arrobapos = dato.find('@')
+# print(arrobapos)
 
-espos = dato.find(' ', arrobapos)
-print(espos)
+# espos = dato.find(' ', arrobapos)
+# print(espos)
 
-direccion = dato[arrobapos+1:espos]
-print(direccion)
+# direccion = dato[arrobapos+1:espos]
+# print(direccion)
+
+def thing():
+    print("Hello")
+
+
+# print("There")
+
+# x = 'banana'
+# y = max(x)
+# print(y)
+
+
+# def func(x):
+#     print(x)
+
+
+# func(10)
+# func(20)
+
+
+# def stuff():
+#     print('Hello')
+#     return
+#     print('World')
+
+
+# stuff()
+
+
+# def greet(lang):
+#     if lang == 'es':
+#         return 'Hola'
+#     elif lang == 'fr':
+#         return 'Bonjour'
+#     else:
+#         return 'Hello'
+
+
+# print(greet('fr'), 'Michael')
+
+
+def addtwo(a, b):
+    added = a + b
+    return a
+
+
+x = addtwo(2, 7)
+print(x)

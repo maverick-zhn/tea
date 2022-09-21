@@ -33,11 +33,11 @@ import random
 # ============================================================
 # 1. Actualizando Variables que dependen de un valor anterior
 # ============================================================
-x = 0
+# x = 0
 
-x = x + 1
+# x = x + 1
 
-print(x)
+# print(x)
 
 # ============================================================
 # 2. While (Mientras)
@@ -47,12 +47,12 @@ print(x)
 # si verdadero ejecuta el cuerpo del ciclo
 # si la condicion es falsa, entonces se ejecuta la siguiente
 # linea despues del ciclo
-n = 5
-while n > 5:
-    print(n)
-    n = n - 1
+# n = 5
+# while n > 0:
+#     print(n)
+#     n = n - 1
 
-print("Autodestruir!")
+# print("Autodestruir!")
 # ============================================================
 # 3. Iteracion Infinita
 # ============================================================
@@ -102,7 +102,7 @@ print("Autodestruir!")
 # for i in [3, 41, 12, 9, 74, 15]:
 #     contador = contador + 1
 
-#print("Número de elementos: ", contador)
+# print("Número de elementos: ", contador)
 
 # 7.2 Sumando elementos
 # total = 0
@@ -117,13 +117,13 @@ print("Autodestruir!")
 # 8. Maximum and Minimum Loops
 # ============================================================
 # None = https://www.w3schools.com/python/ref_keyword_none.asp
-largest = None
-print("Antes: ", largest)
-for i in [3, 41, 12, 9, 74, 15]:
-    if largest is None or i > largest:
-        largest = i
-    print("Loop: ", i, largest)
-print(largest)
+# largest = None
+# print("Antes: ", largest)
+# for i in [3, 41, 12, 9, 74, 15]:
+#     if largest is None or i > largest:
+#         largest = i
+#     print("Loop: ", i, largest)
+# print(largest)
 
 
 def max(values):
@@ -136,4 +136,4 @@ def max(values):
     return largest
 
 
-print("El valor más grande en la lista es: ", max([3, 41, 12, 9, 74, 15]))
+print("El valor más grande en la lista es: ", max([3, 41, 12, 9, 74, 150, 33]))
