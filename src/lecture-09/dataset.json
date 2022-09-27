@@ -1,0 +1,29 @@
+{
+  "estudiantes": [
+    {
+      "nombre": "Steve",
+      "apellido": "Jobs",
+      "lat": 41.4023,
+      "lon": -84.9705
+    },
+    {
+      "nombre": "Steve",
+      "apellido": "Wozniack",
+      "lat": 41.4023,
+      "lon": -84.9705
+    },
+    {
+      "nombre": "Margaret",
+      "apellido": "Hamilton",
+      "lat": 41.4023,
+      "lon": -84.9705
+    },
+    {
+      "nombre": "Michael",
+      "apellido": "Stonebraker",
+      "lat": 41.4023,
+      "lon": -84.9705
+    }
+  ],
+  "numero_estudiantes": 3
+}

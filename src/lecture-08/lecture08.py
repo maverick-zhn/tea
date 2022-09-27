@@ -83,17 +83,18 @@ s = "Monty_Python"
 # ============================================================
 # 5. Operador in
 # ============================================================
-# if 'a' in mensaje:
-#     print("El string contiene a(s)")
-
+# if 'A' in mensaje:
+#     print("El string contiene A(s)")
+# else:
+#     print("No tiene A")
 
 # ============================================================
 # 6. Comparacion de Strings
 # ============================================================
-# if "Hola, Mundo!" != mensaje:
-#     print("Los dos strings(textos) no son iguales")
-# else:
+# if "Hola, Mundo!" == mensaje:
 #     print("Los dos strings(textos) son iguales")
+# else:
+#     print("Los dos strings(textos) no son iguales")
 
 # adicionalmente, se puede utilizar el operador < y > para
 # ordenar alfabeticamente un texto
@@ -110,8 +111,8 @@ s = "Monty_Python"
 # print(mensajeMayuscula)
 
 # pasando todo a minuscula
-# mensajeMinucula = mensaje.lower()
-# print(mensajeMinucula)
+# mensajeMinuscula = mensaje.lower()
+# print(mensajeMinuscula)
 
 # buscando caracteres en el string
 # index = mensaje.find("!")
@@ -125,9 +126,9 @@ s = "Monty_Python"
 # print(linea.strip())
 
 # linea = "Que tenga feliz dia"
-# print(linea.startswith("Que"))
+# # print(linea.startswith("Que"))
 
-# print(linea.lower().startswith("Que"))
+# print(linea.lower().startswith("que"))
 
 # ============================================================
 # 8. Analizando cadenas
@@ -145,8 +146,8 @@ s = "Monty_Python"
 # direccion = dato[arrobapos+1:espos]
 # print(direccion)
 
-def thing():
-    print("Hello")
+# def thing():
+#     print("Hello")
 
 
 # print("There")
@@ -185,10 +186,10 @@ def thing():
 # print(greet('fr'), 'Michael')
 
 
-def addtwo(a, b):
-    added = a + b
-    return a
+# def addtwo(a, b):
+#     added = a + b
+#     return a
 
 
-x = addtwo(2, 7)
-print(x)
+# x = addtwo(2, 7)
+# print(x)
