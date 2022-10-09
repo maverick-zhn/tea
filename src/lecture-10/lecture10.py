@@ -1,9 +1,9 @@
 # Tendencias e Innovacion en Tecnologia Agricola (TEA)
-# Lecture 09
-# Funciones
+# Lecture 11
+# Listas
 # Autor: servio@palacios.com
-# Fecha: 2022.09.18
-# Editado: 2022.09.18
+# Fecha: 2022.10.03
+# Editado: 2022.10.03
 # =================================================================================
 # Disclaimer:
 # Este codigo contiene instrucciones de Python que tiene el fin de
@@ -19,16 +19,24 @@
 # =================================================================================
 
 # ============================================================
-# 1. Utilizando un manejador de archivos
+# 1. Variables con un único valor (hasta el momento)
 # ============================================================
 # x = 2
 # x = 4
 # print(x)
 
 # ============================================================
-# 2. Listas
+# 2. Listas, agregando y eliminado elementos a la lista
 # ============================================================
 # friends = ["Alan", "Michael", "Aura", "Steve"]
+# print(friends)
+# print(friends[1])
+# # agrega elementos al final de la lista
+# friends.append("Zamorano")
+# print(friends)
+# print(friends[4])
+# # elimina elementos al final de la lista
+# friends.pop()
 # print(friends)
 
 # ============================================================
@@ -42,8 +50,8 @@
 # ============================================================
 # 4. Ya hemos utilizado listas
 # ============================================================
-# for i in [5, 4, 3, 2, 1]:
-#     print(i)
+# for numero in [5, 4, 3, 2, 1]:
+#     print(numero)
 # print("Finalizado!")
 
 # ============================================================
@@ -71,11 +79,8 @@
 # ============================================================
 # 8. Longitud de una Lista
 # ============================================================
-from csv import list_dialects
-
-
-longitud = len([4, 7, 1, 63])
-print(longitud)
+# longitud = len([4, 7, 1, 63])
+# print(longitud)
 
 # ============================================================
 # 9. Usando la función range
@@ -148,7 +153,7 @@ print(longitud)
 # ============================================================
 # 16. Orden en Listas
 # ============================================================
-# friends = ["Joseph", "Glenn", "Sally"]
+# friends = ["Joseph", "Aura", "Sally"]
 # friends.sort()
 # print(friends)
 
@@ -197,11 +202,11 @@ print(longitud)
 # for palabra in listaCadenas:
 #     print(palabra)
 
-# linea = "primero;segundo;tercero"
-# temporal = linea.split()
-# print(temporal)
-# temporal = linea.split(';')
-# print(temporal)
+linea = "primero;segundo;tercero"
+temporal = linea.split()
+print(temporal)
+temporal = linea.split(';')
+print(temporal)
 
 # fhand = open('mbox.txt')
 # for line in fhand:
